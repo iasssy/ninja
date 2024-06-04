@@ -24,7 +24,7 @@ function drawImg() {
     if ((xImg + dxImg) > (canvas.width - 100) || (xImg + dxImg) < 0) {
         dxImg = -dxImg;
     }
-    if ((yImg + dyImg) > (canvas.height- 100) || (yImg + 100) < 0) {
+    if ((yImg + dyImg) > (canvas.height- 100) || (yImg + dyImg) < 0) {
         dyImg = -dyImg;
     }
     xImg +=dxImg;
