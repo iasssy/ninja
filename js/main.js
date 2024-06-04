@@ -63,5 +63,5 @@ document.getElementById("runButton").addEventListener("click", function () {
     startGame();
     this.disabled = true;
   });
-setInterval(draw, 10);
+//setInterval(draw, 10);
   
